@@ -9,7 +9,7 @@ void main(){
     do{
     for(l = 0; l < ordem; l++){
         for(c = 0; c < ordem; c++){
-            printf("Informe o numero: ");
+            printf("Informe a linha %d coluna %d:  ", l+1, c+1);
             scanf("%d", &mat[l][c]);
         }
     }
@@ -51,6 +51,8 @@ void main(){
             }
         }
     }
+    
+    puts("\n\n------------------------------------------------");
 
     printf("\nDiagonal secundaria: ");
 
